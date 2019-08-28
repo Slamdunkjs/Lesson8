@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW8</title>
+  <style>
+    body{
+      height: 1000px;
+    }
+    .note{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #406b58;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .fixed{
+      position: fixed;
+      background: green;
+      top: 0px;
+    }
+    #addNewNote{
+      position: fixed;
+      left: : 20px;
+    }
+    .deleteBtn{
+      position: absolute;
+      border-radius: 10px;
+      right: 10px;
+      bottom: 10px;
+    }
+
+    .text {
+      width: 200px;
+      height: 115px;
+      position: absolute;
+      padding: 0;
+      border: 0;
+      top: 45px;
+      background: #407b77;
+    }
+
+    .yes {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background: white-grey;
+      border-radius: 10px;
+    }
+    
+    .no {
+      position: absolute;
+      bottom: 10px;
+      left: 70px;
+      background: white-grey;
+      border-radius: 10px;
+    }
+ </style>
+</head>
+<body>
+  <div id="board"></div>
+  <button id="addNewNote">Add new note</button>
+  <script src="scripts.js"></script>
+</body>
+</html>
